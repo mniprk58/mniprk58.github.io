@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background: #333;
+    line-height: 1.5;
+    font-size: 1.1em;
+    
+    
+}
+h2{
+    margin: 0;
+    padding-top: 1.2em;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+.bi{
+    height: 450px;
+    width: 100%;
+    background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1;
+    position: absolute;
+    
+
+}
+.heading1{
+    padding-top: 100px;
+    padding-bottom: 0;
+
+}
+.para1{
+padding-left: 120px;
+padding-right: 100px;
+}
+.btn{
+    background-color: #333;
+    padding: 20px;
+    border-color: #666;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 0;
+    margin-top: 20px;
+    display: inline-block;
+}
+.btn:hover{
+    color: red;
+    background: white;
+    cursor: grabbing;
+}
+#headerid{
+    min-height: 450px;
+}
+.wad{
+    background: white;
+    color:#333;
+    height: 216px;
+}
+#section-b{
+    display: grid;
+    padding: 2em;
+     
+    
+
+}
+#section-b ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+#section-b li{
+    background: white;
+    color: #333;
+    width: 29%;
+     margin-bottom: 1em;
+}
+.card-content{
+    padding: 1.5em;
+} 
+.content-3{
+    padding: 2em;
+    background: white;
+    color: #333;
+}
+#section-d{
+    display: flex;
+}
+.div1section4{
+    background: slateblue;
+    width: 50%;
+    padding:2em;
+
+}
+.div2section4{
+    background: #333;
+    width: 50%;
+    padding: 2em;
+
+}
+#footer{
+    display: flex;
+    /* border: white solid;
+    border-width: 1px; */
+}
+.f1{
+width: 50%;
+padding: 2em;
+color: white;   
+}
+.f2{
+width: 50%;
+color:white;
+padding: 2em;
+}
+
+@media only screen and (max-width: 600px){
+    #section-b ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+        justify-content: space-around;
+    
+    }
+    #section-b li{
+        background: white;
+        color: #333;
+        width: 100%;
+         margin-bottom: 1em;
+    }
+    #section-d{
+        display: block;
+    }
+    .div1section4{
+        background: slateblue;
+        width: 100%;
+        padding:1em;
+    
+    }
+    .div2section4{
+        background: #333;
+        width: 100%;
+        padding: 1em;
+    
+    }
+    .wad {
+        background: white;
+        color: #333;
+        height: 245px;
+    }
+    .heading1 {
+        padding-top: 25px;
+        padding-bottom: 0;
+    }
+    .para1 {
+        padding-left: 30px;
+        padding-right: 13px;
+    }
+
+    
+
+}
+
+
+
+
+    
+
